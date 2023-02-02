@@ -15,3 +15,6 @@ while(N!=0)//пока N не равно 0
 }
 System.Console.WriteLine(counter);
 System.Console.WriteLine(sum);
+
+
+//123456/System.Math.Pow(10,4)%10
