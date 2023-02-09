@@ -1,14 +1,19 @@
 ﻿//Напишите подпрограмму нахождения расстояния между двумя точками
 
+//Сигнатура метода ()
+//double (double, double, double, double)
+
 //тип Название(аргументы)
 
 //метод, функция (C)
 double Distance(double x1,double y1, double x2,double y2)
 {
+    //double(double)
     return Math.Sqrt(Math.Pow(x2-x1,2)+Math.Pow(y1-y2,2));
 }
 
 //процедуры - C# -нет
+//void()
 void Pause()
 {
     Console.ReadKey();
