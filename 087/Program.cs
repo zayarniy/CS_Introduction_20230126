@@ -4,9 +4,12 @@
 //ABCD=AD
 //ABC=AC
 
-string s="ABCDE";
-if (s.Length%2==0)
-  s=s.Remove(s.Length/2-1,2);
-  else
-    s=s.Remove(s.Length/2,1);
-System.Console.WriteLine(s);    
+// string s="ABCDE";
+// if (s.Length%2==0)
+//   s=s.Remove(s.Length/2-1,2);
+//   else
+//     s=s.Remove(s.Length/2,1);
+// System.Console.WriteLine(s);    
+
+for(int i=0;i<10;++i)
+    System.Console.WriteLine(i);

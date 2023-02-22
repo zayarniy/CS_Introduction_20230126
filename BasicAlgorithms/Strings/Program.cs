@@ -26,14 +26,14 @@
 
 //ReadLn(a,b,c) 3 4 5
 //Ввод нескольких значений
-// string s=Console.ReadLine();
-// string[] s1=s.Split(' ',StringSplitOptions.RemoveEmptyEntries);
-// int[] a=new int[s1.Length];
-// // for(int i=0;i<a.Length;i++)
-// //   a[i]=Convert.ToInt32(s1[i]);
-// int[] b=Array.ConvertAll<string, int>(s1, Convert.ToInt32);
-// for(int i=0;i<s1.Length;i++)
-//   System.Console.WriteLine(b[i]);
+string s=Console.ReadLine();
+string[] s1=s.Split(' ',StringSplitOptions.RemoveEmptyEntries);
+int[] a=new int[s1.Length];
+// for(int i=0;i<a.Length;i++)
+//   a[i]=Convert.ToInt32(s1[i]);
+int[] b=Array.ConvertAll<string, int>(s1, Convert.ToInt32);
+for(int i=0;i<s1.Length;i++)
+  System.Console.WriteLine(b[i]);
 
 //String VS StringBuilder
 // using System.Text;
